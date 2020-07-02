@@ -12,6 +12,7 @@
     <title>404 puslapis</title>
     <link rel="icon" type="image/png" href="./img/favicon.png">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -19,26 +20,29 @@
     <!-- stilius --- taisyklė: reiksme; -->
     <!-- taisyklė jei iš dviejų žodžių visada bus atskirtas minuso ženklu -->
     <!-- kas liečia tekstą vaikai gali paveldėti iš tėvų, išskyrus tam tikras taisykles pvz nuorodos  -->
-    <header class="header">
-        <!-- jei netyčia nuotrauka neužsiloadins rodys kas alt parašyta -->
-        <img class="logo" src="./img/logo.png" alt="Projekto logotipas">
-        <nav class="navigation">
-            <a class="link" href="#">Home</a>
-            <a class="link" href="#">About us</a>
-            <a class="link" href="#">Work</a>
-            <a class="link" href="#">Info</a>
-            <a class="link button" href="#">Get started</a>
-        </nav>
-    </header>
-    <main class="content">
-        <div class="texts">
-            <h1 class="title">Page 404 not found</h1>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in earum
-                cupiditate ducimus obcaecati nemo!</p>
-            <a class="button button-wider" href="#">Back home</a>
-        </div>
-        <img class="main-image" src="./img/kompiuteris.png" alt="Pagrindinė nuotrauka">
-    </main>
+    <div class="bg"></div>
+    <div class="container">
+        <header class="header">
+            <!-- jei netyčia nuotrauka neužsiloadins rodys kas alt parašyta -->
+            <img class="logo" src="./img/logo.png" alt="Projekto logotipas">
+            <nav class="navigation">
+                <a class="link" href="#">Home</a>
+                <a class="link" href="#">About us</a>
+                <a class="link" href="#">Work</a>
+                <a class="link" href="#">Info</a>
+                <a class="link button responsive-button" href="#">Get started</a>
+            </nav>
+        </header>
+        <main class="content">
+            <div class="texts">
+                <h1 class="title">Page 404 not found</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique in earum
+                    cupiditate ducimus obcaecati nemo!</p>
+                <a class="button button-wider" href="#">Back home</a>
+            </div>
+            <img class="main-image" src="./img/kompiuteris.png" alt="Pagrindinė nuotrauka">
+        </main>
+    </div>
 </body>
 
 </html>
