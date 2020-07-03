@@ -64,3 +64,23 @@
             margin: 0;
         }
 }
+
+@media (max-height: 500px) {
+    body {
+        text-align: center;
+        position: relative;
+    }
+    .container {
+        display: inline-block;
+        position: static;
+        transform: translate(0, 0);
+        margin: 20px 0 10px;
+        width: min-content;
+    }
+    .bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+    }
+}
