@@ -1,10 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    /* display: inline-block; */
 }
     .bg {
-        display: inline-block;
         width: 100%;
         background-color: violet;
         background: url(../img/background.jpg);
